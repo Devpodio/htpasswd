@@ -1,0 +1,35 @@
+{
+  "name": "@devpodio/htpasswd",
+  "version": "0.0.0",
+  "description": "htpasswd utility to create,edit,view .htpasswd file",
+  "main": "index.js",
+  "bin": {
+    "htpasswd": "./bin/htpasswd"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpodio/htpasswd.git"
+  },
+  "keywords": [
+    "htpasswd",
+    "basic",
+    "auth"
+  ],
+  "author": "uni sayo <unibtc@gmail.com> (https://github.com/uniibu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devpodio/htpasswd/issues"
+  },
+  "homepage": "https://github.com/devpodio/htpasswd#readme",
+  "dependencies": {
+    "apache-crypt": "^1.2.1",
+    "apache-md5": "^1.1.2",
+    "bcryptjs": "^2.4.3",
+    "prompt": "^1.0.0",
+    "yargs": "^12.0.5"
+  }
+}
