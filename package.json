@@ -1,6 +1,6 @@
 {
   "name": "@devpodio/htpasswd",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "htpasswd utility to create,edit,view .htpasswd file",
   "main": "index.js",
   "bin": {
