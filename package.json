@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "htpasswd utility to create,edit,view .htpasswd file",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "htpasswd": "./bin/htpasswd"
   },
